@@ -30,7 +30,7 @@ For example, if you input the message `"Hello"`, the output will be an encrypted
 
 Here is the `cypher` function:
 
-\`\`\`javascript
+```javascript
 function cypher() {
 // Initialize an empty array to store the encoded character codes
 let cypherArr = [];
@@ -65,7 +65,7 @@ let message = prompt('Enter a message to encrypt:');
 }
 // Call the cypher function to encrypt the message and log the result
 console.log(cypher());
-\`\`\`
+```
 
 ## Usage
 
